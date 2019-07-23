@@ -1,5 +1,5 @@
 ---
-# tasks file for unzip - CentOS
+# tasks file for git - CentOS
 
 - name: Installing {{ git_app }} on EL systems
   yum:
