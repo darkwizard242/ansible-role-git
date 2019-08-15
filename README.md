@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/darkwizard242/ansible-role-git.svg?branch=master)](https://travis-ci.com/darkwizard242/ansible-role-git)
+
 Ansible Role: git
 =========
 
