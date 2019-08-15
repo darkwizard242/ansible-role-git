@@ -1,4 +1,4 @@
 ---
-# defaults file for git 
+# defaults file for git
 git_app: git
 git_desired_state: present
