@@ -1,5 +1,5 @@
 ---
-# tasks file for git - CentOS
+# tasks file for git - EL
 
 - name: Installing {{ git_app }} on EL systems
   yum:
