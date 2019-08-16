@@ -1,7 +1,7 @@
 ---
 # tasks file for git - Debian
 
-- name: Installing {{ git_app }}
+- name: Installing {{ git_app }} on Debian systems
   apt:
     name: "{{ git_app }}"
     state: "{{ git_desired_state }}"
