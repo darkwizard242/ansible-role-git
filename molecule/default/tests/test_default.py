@@ -18,5 +18,5 @@ def test_git_binary_file(host):
     assert host.file('/usr/bin/git').is_file
 
 
-def test_git_binary_whereis(host):
-    assert host.check_output('whereis git') == '/usr/bin/git'
+def test_git_binary_which(host):
+    assert host.check_output('which git') == '/usr/bin/git'
