@@ -2,7 +2,7 @@
 
 # Ansible Role: git
 
-Role to install (_by default_) `git` package or uninstall (_if passed as var_) on **Debian**, **Ubuntu** and **CentOS** systems.
+Role to install (_by default_) [git](https://git-scm.com/) package or uninstall (_if passed as var_) on **Debian**, **Ubuntu** and **CentOS** systems.
 
 ## Requirements
 
@@ -37,7 +37,7 @@ For default behaviour of role (i.e. installation of **git** package) in ansible 
 ```yaml
 - hosts: servers
   roles:
-    - role: darkwizard242.git
+    - darkwizard242.git
 ```
 
 For customizing behavior of role (i.e. installation of latest **git** package) in ansible playbooks.
@@ -45,9 +45,9 @@ For customizing behavior of role (i.e. installation of latest **git** package) i
 ```yaml
 - hosts: servers
   roles:
-    - role: darkwizard242.git
-      vars:
-        git_desired_state: latest
+    - darkwizard242.git
+  vars:
+    git_desired_state: latest
 ```
 
 For customizing behavior of role (i.e. un-installation of **git** package) in ansible playbooks.
@@ -55,9 +55,9 @@ For customizing behavior of role (i.e. un-installation of **git** package) in an
 ```yaml
 - hosts: servers
   roles:
-    - role: darkwizard242.git
-      vars:
-        git_desired_state: absent
+    - darkwizard242.git
+  vars:
+    git_desired_state: absent
 ```
 
 ## License
