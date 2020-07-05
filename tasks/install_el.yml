@@ -1,7 +1,7 @@
 ---
-# tasks file for git - EL
+# tasks file for git | EL Family
 
-- name: Installing {{ git_app }} on EL systems
+- name: EL Family | Installing {{ git_app }}
   yum:
     name: "{{ git_app }}"
     state: "{{ git_desired_state }}"

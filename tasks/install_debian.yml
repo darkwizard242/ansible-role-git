@@ -1,7 +1,7 @@
 ---
-# tasks file for git - Debian
+# tasks file for git | Debian/Ubuntu Family
 
-- name: Installing {{ git_app }} on Debian systems
+- name: Debian/Ubuntu Family | {{ git_app }}
   apt:
     name: "{{ git_app }}"
     state: "{{ git_desired_state }}"
