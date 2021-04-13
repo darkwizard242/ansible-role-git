@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   role_name: git
-  author: Ali Muhammad
+  author: darkwizard242
   description: Role for dynamically installing or uninstalling 'git' package.
   company: none
   license: MIT
