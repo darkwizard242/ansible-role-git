@@ -2,7 +2,7 @@
 # tasks file for git | EL Family
 
 - name: EL Family | Installing {{ git_app }}
-  yum:
+  ansible.builtin.yum:
     name: "{{ git_app }}"
     state: "{{ git_desired_state }}"
     update_cache: yes

@@ -2,7 +2,7 @@
 # tasks file for git | Debian/Ubuntu Family
 
 - name: Debian/Ubuntu Family | {{ git_app }}
-  apt:
+  ansible.builtin.apt:
     name: "{{ git_app }}"
     state: "{{ git_desired_state }}"
     force_apt_get: yes
